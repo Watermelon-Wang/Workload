@@ -572,7 +572,6 @@ def main():
 
     ##测试脑电数据
     testEEGClassiferPipeline(dataFile)
-    print("sha qiu yue")
     # ## 把特征映射到[0,1]区间
     # EEG['data'] = MinMaxScaler().fit_transform(EEG['data'])
     #
